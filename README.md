@@ -1,4 +1,4 @@
-# Multi-modal Visual Pattern Recognition-Track 3
+# Multi-modal Visual Pattern Recognition Challenge-Track 3
 This is the official repository for the Multi-modal Visual Pattern Recognition-_Track3 Multi-modal Action Recognition_ (ICPR 2024). 
 <br>You can visit the challenge's official [website](https://prci-lab.github.io/mmvpr-workshop-icpr2024/) for more information, or you can directly participate in the competition on [codalab]().
 ## Overview
@@ -12,9 +12,9 @@ To participate, please fill out this online [Multi-modal Visual Pattern Recognit
 
 ## Details
 
-### Example Images
+### Example Videos
 
-| Depth Image | Thermal-IR Image | RGB Image |
+| Depth | Thermal-IR | RGB |
 |:-----------:|:----------------:|:---------:|
 | ![Depth Output](figs/output_depth.gif) | ![IR Output](figs/output_ir.gif) | ![RGB Output](figs/output_rgb.gif) |
 
