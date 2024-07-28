@@ -41,8 +41,8 @@ The dataset for this track contains 20 categories.
 
 ```
 Track3-Multi-modal Action Recognition
-├── /training set/
-│ ├── train_label.txt
+├── /training_set/
+│ ├── train_videofolder.txt
 │ ├── /depth_data/
 │ │ ├── /1/
 │ │ │ ├── 000001.png
@@ -63,8 +63,8 @@ Track3-Multi-modal Action Recognition
 │ │ │ ├── ... ...
 │ │ │ ├── 000150.jpg
 ├───── ... ...
-└──/test set/
-  ├── test.txt
+└──/test_set/
+  ├── test_videofolder.txt
   ├── /depth_data/
   │ ├── /1/
   │ │ ├── 000001.png
