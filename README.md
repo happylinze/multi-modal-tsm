@@ -1,7 +1,9 @@
 # Multi-Modal Visual Pattern Recognition Challenge <br>Track 3: Multi-Modal Action Recognition
+
 <div align="center">
     <img src="figs/MMVPR-logo.png" alt="MMVPR" style="width:200px;height:auto;">
 </div>
+
 This is the official repository for the Multi-Modal Visual Pattern Recognition-_Track3 Multi-Modal Action Recognition_ (ICPR 2024). You can visit the challenge's official [website](https://prci-lab.github.io/mmvpr-workshop-icpr2024/) for more information, or you can directly participate in the challenge on [codalab](https://codalab.lisn.upsaclay.fr/competitions/19861).
 
 ## Overview
