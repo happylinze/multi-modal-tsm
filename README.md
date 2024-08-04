@@ -1,11 +1,13 @@
-# Multi-modal Visual Pattern Recognition Challenge-Track 3
-This is the official repository for the Multi-modal Visual Pattern Recognition-_Track3 Multi-modal Action Recognition_ (ICPR 2024). 
-<br>You can visit the challenge's official [website](https://prci-lab.github.io/mmvpr-workshop-icpr2024/) for more information, or you can directly participate in the competition on [codalab]().
+# Multi-Modal Visual Pattern Recognition Challenge (ICPR 2024)<br>Track 3: Multi-Modal Action Recognition
+<div align="center">
+    <img src="./MMVPR-logo.png" alt="MMVPR" style="width:200px;height:auto;">
+</div>
+This is the official repository for the Multi-Modal Visual Pattern Recognition-_Track3 Multi-Modal Action Recognition_ (ICPR 2024). You can visit the challenge's official [website](https://prci-lab.github.io/mmvpr-workshop-icpr2024/) for more information, or you can directly participate in the challenge on [codalab](https://codalab.lisn.upsaclay.fr/competitions/19861).
+
 ## Overview
+This track focuses on recognizing human actions from Multi-Modal data sources. The dataset for this track contains 2500 Multi-Modal videos (2000 for training and 500 for test) spanning across 20 action classes. You can find details of the dataset on this repo.
 
-This track focuses on recognizing human actions from multi-modal data sources. The dataset for this track contains 2500 multi-modal videos (2000 for training and 500 for test) spanning across 20 action classes. You can find details of the dataset on this repo.
-
-To participate, please fill out this online [Multi-modal Visual Pattern Recognition Challenge Datasets Request Form](https://docs.google.com/forms/d/e/1FAIpQLSeJGZTYW-JS0-IJKnWgYGnE0EgdXnoL7Yi0xc-F9Z6XU1X4Zg/viewform).
+To participate, please fill out this online [Multi-Modal Visual Pattern Recognition Challenge Datasets Request Form](https://docs.google.com/forms/d/e/1FAIpQLSeJGZTYW-JS0-IJKnWgYGnE0EgdXnoL7Yi0xc-F9Z6XU1X4Zg/viewform).
 
 
 **Note**: Top performers on the public ranking board will be invited to submit functional code for both training and inference for the problem. Test data must not be used for any kind of training (supervised or self-supervised). The data from the train split and any other dataset can be used for training, fine-tuning, or prompting.
@@ -40,7 +42,7 @@ The dataset for this track contains 20 categories.
 ## Structure
 
 ```
-Track3-Multi-modal Action Recognition
+Track3-Multi-Modal Action Recognition
 ├── /training_set/
 │ ├── train_videofolder.txt
 │ ├── /depth_data/
@@ -93,7 +95,7 @@ This code is based on the [TSM](https://github.com/mit-han-lab/temporal-shift-mo
 
 We provided several examples to train MM-TSM with this repo:
 
-- To train on Multi-modal Action Recognition Dataset, using ImageNet pre-training is usually better:
+- To train on Multi-Modal Action Recognition Dataset, using ImageNet pre-training is usually better:
 
   ```bash
   python main.py mmvpr RTD \
