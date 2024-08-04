@@ -90,7 +90,7 @@ Track3-Multi-Modal Action Recognition
   └───
 ```
 # Baseline
-This code is based on the [TSM](https://github.com/mit-han-lab/temporal-shift-module) codebase. So you can follow the prerequisites of [TSM](https://github.com/mit-han-lab/temporal-shift-module). 
+This code is based on the [TSM](https://github.com/mit-han-lab/temporal-shift-module). So you can follow the prerequisites of [TSM](https://github.com/mit-han-lab/temporal-shift-module). 
 <br>We have modified the original version to accommodate multimodal tasks. You can also adjust it yourself.
 
 ## Training 
