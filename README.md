@@ -1,4 +1,4 @@
-# Multi-Modal Visual Pattern Recognition Challenge (ICPR 2024)<br>Track 3: Multi-Modal Action Recognition
+# Multi-Modal Visual Pattern Recognition Challenge <br>Track 3: Multi-Modal Action Recognition
 <div align="center">
     <img src="figs/MMVPR-logo.png" alt="MMVPR" style="width:200px;height:auto;">
 </div>
